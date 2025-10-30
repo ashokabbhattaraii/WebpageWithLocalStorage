@@ -55,5 +55,5 @@ if (!users) {
 
 const backBtn = document.querySelector('.backBtn');
 backBtn.addEventListener('click',()=>{
-    window.location.href='Home.html'
+    window.location.href='index.html'
 })

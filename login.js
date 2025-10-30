@@ -47,7 +47,7 @@ userData.forEach(user => {
 
     localStorage.setItem('checkLogIn',JSON.stringify(userProfile))
     console.log(userProfile)
-    window.location.href='home.html'
+    window.location.href='index.html'
     
 
    }
@@ -59,5 +59,5 @@ userData.forEach(user => {
 
 const backBtn = document.querySelector('.backBtn');
 backBtn.addEventListener('click',()=>{
-    window.location.href='Home.html'
+    window.location.href='index.html'
 })
